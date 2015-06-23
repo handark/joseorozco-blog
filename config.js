@@ -22,7 +22,7 @@ config = {
 
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '104.131.186.98',
+            host: '127.0.0.1',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         }
@@ -58,7 +58,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '104.131.186.98',
+            host: '127.0.0.1',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         },
@@ -73,7 +73,7 @@ config = {
     // Used when developing Ghost to run tests and check the health of Ghost
     // Uses a different port number
     testing: {
-        url: 'http://104.131.186.98:2369',
+        url: 'http://127.0.0.1:2369',
         database: {
             client: 'sqlite3',
             connection: {
